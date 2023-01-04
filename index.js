@@ -6,7 +6,7 @@ const placesRoutes = require('./routes/place')
 require('./models')
 
 app.use(express.json())
-app.use(express.json())
+// app.use(express.urlencoded({ extended: true }));
 
 app.use('/', placesRoutes)
 
